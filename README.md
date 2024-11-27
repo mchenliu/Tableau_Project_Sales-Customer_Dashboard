@@ -51,7 +51,7 @@
 | Find Sales Below or <br> Above Average | `IF SUM([Current Year Sales]) >` <br> `WINDOW_AVG (SUM([Current Year Sales])` <br> `THEN 'Above'` <br> `ELSE 'Below'` <br> `END` |
 | Num of Orders <br> Per Customer| `IF YEAR([Order Date]) = [Select Year]` <br> `THEN [Customer ID]` <br> `END`  
 ___
-**:abacus: Charts Used**
+**:abacus: Charts Used**  
 Each chart type was selected for its ability to effectively communicate specific insights:  
 - **:chart_with_upwards_trend: BAN + Line Chart:** Ideal for presenting KPIs at a glance. I combined BANs with line charts to show KPIs of sales, profit, quantity sold, number of customers, sales per customer and orders. trends for all these indexes over time.  
 ![BAN](/Sales%20Dashboard%20Materials/Images/Total_Sales_BAN.png)  

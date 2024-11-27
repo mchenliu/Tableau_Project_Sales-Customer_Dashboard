@@ -60,9 +60,9 @@ The project was completed as part of Baraa Salkini's course on [Udemy](https://w
 - Explored the data using Tableau worksheets to understand relationships and potential insights.
 ## :three: Build Charts
 - **:white_check_mark: Chart Selection:** Analyzed user requirements to select the most effective chart types for presenting data.
-- **:gear: Created Parameter:** As per user requirement to have the flexibity of selecting any desired year. 
- *Parameter created with input validation*
-  ![Parameter](/Sales%20Dashboard%20Materials/Images/Parameter.png)
+- **:gear: Created Parameter:** As per user requirement to have the flexibity of selecting any desired year.  
+*Parameter created with input validation*  
+![Parameter](/Sales%20Dashboard%20Materials/Images/Parameter.png)
 - **:1234: Calculated fields** developed to enhance chart functionality:  
 
 | Field Name |Formula   |                                                            

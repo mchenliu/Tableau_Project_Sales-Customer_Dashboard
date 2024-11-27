@@ -81,8 +81,8 @@ ___
 **:abacus: Charts Used**  
 Each chart type was selected for its ability to effectively communicate specific insights:  
 - **:chart_with_upwards_trend: BAN + Line Chart:** Ideal for presenting KPIs at a glance. I combined BANs with dual axis line charts to show KPIs of sales, profit, quantity sold, number of customers, sales per customer and orders. trends for all these indexes over time. Both highest and lowest figures are highlighted in the chart.
-  *BAN & line chart for total sales*
-![BAN](/Sales%20Dashboard%20Materials/Images/Total_Sales_BAN.png)  
+  *BAN & line chart for total profit*
+![BAN](/Sales%20Dashboard%20Materials/Images/Total_profit.png)
   *BAN & line chart for total sales per customer*
 ![Sales_per_customer_BAN](/Sales%20Dashboard%20Materials/Images/Total_Sales_Per_Customer.png)  
 - **:bar_chart: Bar-in-bar chart:** Excellent for comparing a subgroup with its large group. 

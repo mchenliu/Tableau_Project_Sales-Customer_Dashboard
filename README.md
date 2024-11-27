@@ -95,10 +95,32 @@ Each chart type was selected for its ability to effectively communicate specific
 
 ## :four: Dashboard Build  
 **Sales Dashboard**  
-**:bricks: Structure:**
-**:paintbrush: Design and Build:**
-![Sketch1](/Sales%20Dashboard%20Materials/Images/Sketch1.png)    
+
+**:bricks: Structure:**  
+- Title: Included logo, title and a floating filter bar.
+- Legends: Highlighted the highest and lowest month figures.
+- KPIs: Sales, profit and quantity.
+- Charts: 
+  - Sales & Profit by Subcategory
+  - Sales & Profit Trends
+  
+**:paintbrush: Design and Build:**  
+- Planned and sketched the layout in draw.io, defining container structures for clarity.
+- Integrated charts into the Sales Dashboard.
+- Refined the dashboard's design, including colors, text styles, and inner/outer padding for a clean and professional look.
+- Added the logo and buttons to the title bar for a cohesive and branded design.
+- Converted the buttons to floating and added to the floating filter.
+- Fine tuned the settings of the floating filter.
+- Performed thorough testing.  
+  
+*Define different objects in the sketch*  
+![Sketch1](/Sales%20Dashboard%20Materials/Images/Sketch1.png)  
+*Sales Dashboard sketch*  
 ![Sketch2](/Sales%20Dashboard%20Materials/Images/Sketch2.png)  
+
+
+  
+
 
 **Customers Dashboard**  
 **:bricks: Structure:**  

@@ -38,10 +38,10 @@ The project was completed as part of Baraa Salkini's course on [Udemy](https://w
 - **Data Connection:** Linked the dataset to Tableau. The `Orders` table functions as a fact table, while `Customers`, `Location`, and `Products` tables serve as dimension tables.
 - **Data Model Construction:**
     - Initiated with the `Orders` fact table.
-    - Key Relationships:
-      `Customers.Customer ID` ↔ `Orders.Customer ID`
-      `Location.Postal Code` ↔ `Orders.Postal Code`
-      `Products.Product ID` ↔ `Orders.Product ID`
+    - Key Relationships:  
+      `Customers.Customer ID` ↔ `Orders.Customer ID`  
+      `Location.Postal Code` ↔ `Orders.Postal Code`  
+      `Products.Product ID` ↔ `Orders.Product ID`  
 
 *Data model diagran*  
 ![Data_model](/Sales%20Dashboard%20Materials/Images/Connect_data.png)

@@ -41,9 +41,11 @@ The project was completed as part of Baraa Salkini's course on [Udemy](https://w
 **:octopus: Git & Github:** My go-to for version control and tracking my project progress.
 # Steps to Build Dashboards
 ## :one: Define User Requirements
-- :dart: Identify Target Audience:
-- :moneybag: Sales
-- :credit_card: Customers
+- **:dart: Identify Target Audience:** The dashboard is designed for sales managers and executives, addressing two primary needs:
+  - KPIs overview and trends over time.
+  - Interactivity and filters: Users should easily swtich between dashboard, viea data of desired year and capable of filtering data by product infomration and by location. 
+- **:moneybag: Sales:**
+- **:credit_card: Customers:**
 ## :two: Build Data Source
 - Connected the dataset to Tableau. Identified the `Orders` tabls is a fact table while the `Customers`, `Location` and `Products` tables are dimention tables.
 - Built data model started with the **fact** table `Orders`.  
@@ -118,12 +120,8 @@ Each chart type was selected for its ability to effectively communicate specific
 *Sales Dashboard sketch*  
 ![Sketch2](/Sales%20Dashboard%20Materials/Images/Sketch2.png)  
 
-
-  
-
-
 **Customers Dashboard**  
-**:bricks: Structure:**  
-**:paintbrush: Design and Build:**
+The structure is nearly identical to Sales Dashboard. Therefor I used the same sketch and took same building stpes to construct this dashboard.  
+
 # Conclusion
 :mag: Explore the full dashboards on [Tableau Public](https://public.tableau.com/app/profile/mei.liu4813/viz/SalesCustomersDashboardsDataWithBaraa/CustomersDashboard).

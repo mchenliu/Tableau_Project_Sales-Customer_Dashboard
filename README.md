@@ -19,18 +19,6 @@
 # Introduction  
 :mega: I built two interactive dashboards (**Sales** and **Customers**) in this project providing a comprehensive overview of key performance indicators (KPIs) related sales performance and customer engagement. 
 
-- **Sales Dashboard:** Reveals KPIs, sales & profit trends analysis and product subcategory comparison.
-- **Customers Dashboard:** Draws attention to KPIS, customer trends, customers engagement analysis and presents the top ten customers by proft.
-
-
-In this project, I developed two robust interactive dashboards (**Sales** and **Customers**) designed to enhance decision-making through detailed analyses of key performance indicators (KPIs) related to sales performance and customer engagement. These tools are crafted for stakeholders looking to deepen their understanding of market dynamics and customer behaviors.
-
-- **Sales Dashboard:** This dashboard provides an overview of sales and profit trends, alongside a detailed comparison of product subcategories. It is engineered to highlight critical sales KPIs, offering insights into both overall performance and granular product-level trends.
-
-- **Customers Dashboard:** Focused on driving customer-centric strategies, this dashboard offers a nuanced look at customer engagement metrics and trends. It features an analysis of top ten customers by profit, enabling targeted marketing and customer relationship management.
-
-- **Key Features:** Interactive elements allow users to explore data across different time frames and dimensions. Dynamic filters to drill down into specific products, categories, or customer segments.
-
 The project was completed as part of Baraa Salkini's course on [Udemy](https://www.udemy.com/course/the-tableau-ultimate-course-from-zero-to-hero).  
 
 :mag: Check out my HR dashboard on [Tableau Public](https://public.tableau.com/app/profile/mei.liu4813/viz/SalesCustomersDashboardsDataWithBaraa/CustomersDashboard).
@@ -41,33 +29,32 @@ The project was completed as part of Baraa Salkini's course on [Udemy](https://w
 **:octopus: Git & Github:** My go-to for version control and tracking my project progress.
 # Steps to Build Dashboards
 ## :one: Define User Requirements
-- **:dart: Identify Target Audience:** The dashboard is designed for sales managers and executives, addressing two primary needs:
-  - KPIs overview and trends over time.
-  - Interactivity and filters: Users should easily swtich between dashboard, viea data of desired year and capable of filtering data by product infomration and by location. 
+- **:dart: Identify Target Audience:** The dashboard is tailored for sales managers and executives, focusing on:
+  - KPI Overview and Trends: Monitor key performance indicators and their changes over time.
+  - Interactivity and Flexibility: Users can switch between dashboards, view data for selected years, and apply filters related to product information and location. 
 - **:moneybag: Sales:**
 - **:credit_card: Customers:**
 ## :two: Build Data Source
-- Connected the dataset to Tableau. Identified the `Orders` tabls is a fact table while the `Customers`, `Location` and `Products` tables are dimention tables.
-- Built data model started with the **fact** table `Orders`.  
-
-| Primary Key | Foreign Key|
-|-------------|------------|
-| Customers.Customer ID | Orders.Customer ID |
-| Location.Postal Code | Orders.Postal Code |
-| Products.Product ID | Orders.Product ID|  
+- **Data Connection:** Linked the dataset to Tableau. The `Orders` table functions as a fact table, while `Customers`, `Location`, and `Products` tables serve as dimension tables.
+- **Data Model Construction:**
+    - Initiated with the `Orders` fact table.
+    - Key Relationships:
+      `Customers.Customer ID` ↔ `Orders.Customer ID`
+      `Location.Postal Code` ↔ `Orders.Postal Code`
+      `Products.Product ID` ↔ `Orders.Product ID`
 
 *Data model diagran*  
 ![Data_model](/Sales%20Dashboard%20Materials/Images/Connect_data.png)
-- Conducted an initial inspection to verify data quality and ensure accurate data type mapping.
-- Explored the data using Tableau worksheets to understand relationships and potential insights.
+- **Data Exploration:**
+    - Verified data quality and correct data type mapping.
+    - Utilized Tableau worksheets to explore data relationships and gather potential insights.
 ## :three: Build Charts
 - **:white_check_mark: Chart Selection:** Analyzed user requirements to select the most effective chart types for presenting data.
-- **:gear: Created Parameter:** As per user requirement to have the flexibity of selecting any desired year.  
-
+- **:gear: Created Parameter:** Implemented a parameter to allow year selection, ensuring data accuracy for users with input validation.
 
 *Parameter created with input validation*  
 ![Parameter](/Sales%20Dashboard%20Materials/Images/Parameter.png)
-- **:1234: Calculated fields** developed to enhance chart functionality:  
+- **:1234: Calculated fields** developed to enhance chart functionality including:  
 
 | Field Name |Formula   |                                                            
 |------------|----------|
@@ -80,7 +67,7 @@ The project was completed as part of Baraa Salkini's course on [Udemy](https://w
 ___
 **:abacus: Charts Used**  
 Each chart type was selected for its ability to effectively communicate specific insights:  
-- **:chart_with_upwards_trend: BAN + Line Chart:** Ideal for presenting KPIs at a glance. I combined BANs with dual axis line charts to show KPIs of sales, profit, quantity sold, number of customers, sales per customer and orders. trends for all these indexes over time. Both highest and lowest figures are highlighted in the chart.
+- **:chart_with_upwards_trend: BAN + Line Chart:** Ideal for presenting KPIs at a glance. I combines BANs with dual-axis line charts for a dynamic representation of sales, profit, and customer trends.
   *BAN & line chart for total profit*
 ![BAN](/Sales%20Dashboard%20Materials/Images/Total_profit.png)
   *BAN & line chart for total sales per customer*
@@ -89,7 +76,7 @@ Each chart type was selected for its ability to effectively communicate specific
   ![Bar_in_bar_chart](/Sales%20Dashboard%20Materials/Images/Bar_in_bar_chart.png)
 - **:chart_with_upwards_trend: Stepped Line Chart:**  
   ![Stepped_line_chart](/Sales%20Dashboard%20Materials/Images/Step_line_chart.png)
-- **:bar_chart: Histogram:**  
+- **:bar_chart: Histogram:** Suitable for detailed data distribution insights.
   ![Histogram](/Sales%20Dashboard%20Materials/Images/Histogram.png)  
 - **:clipboard: Table:**  
   ![Customer_filter](/Sales%20Dashboard%20Materials/Images/Top_10_customer_filter.png)
@@ -100,7 +87,7 @@ Each chart type was selected for its ability to effectively communicate specific
 
 **:bricks: Structure:**  
 - Title: Included logo, title and a floating filter bar.
-- Legends: Highlighted the highest and lowest month figures.
+- Legends: 
 - KPIs: Sales, profit and quantity.
 - Charts: 
   - Sales & Profit by Subcategory

@@ -14,7 +14,7 @@
 # Sales & Customers Dashboard | Sales  
 ![Sales Dashboard](/Sales%20Dashboard%20Materials/Images/Sales%20Dashboard.gif)  
 # Sales & Customers Dashboard | Customers
-![Customer Dashboard](/Sales%20Dashboard%20Materials/Images/Customers%20Dashboard.gif)  
+![Customers Dashboard](/Sales%20Dashboard%20Materials/Images/Customers%20Dashboard.gif)  
 
 # Introduction  
 :mega: I built two interactive dashboards (**Sales** and **Customers**) in this project providing sales managers and executives a comprehensive overview of key performance indicators (KPIs) related sales performance and customer engagement. 
@@ -24,13 +24,14 @@ The project was completed as part of Baraa Salkini's course on [Udemy](https://w
 :mag: Check out my Sales & Customers Dashboard on [Tableau Public](https://public.tableau.com/app/profile/mei.liu4813/viz/SalesCustomersDashboardsDataWithBaraa/CustomersDashboard).
 ## Tools Used
 **:art: Tableau:** A powerful tool for creating data visualizations and business intelligence dashboards, enabling insightful analysis and reporting.  
-**:pencil2: draw.io:** Used to sketch the container structures for dashboard design.
+**:pencil2: draw.io:** Used to sketch the container structures for dashboard design.  
 **:computer: Visual Studio Code:** A lightweight, versatile code editor. I utilized Visual Studio Code to edit project scripts and manage images, ensuring seamless integration and synchronization with GitHub for version control and collaboration.  
 **:octopus: Git & Github:** My go-to for version control and tracking my project progress.
+
 # Steps to Build Dashboards
 ## :one: Define User Requirements
 - **:dart: Identify Target Audience:** The dashboard is tailored for sales managers and executives, featuring:
-  - KPI Overview and Trends: Monitor sales and customers KPIs and their changes over time in two corresponding dashboards.
+  - KPI Overview and Trends: Monitor sales and customer KPIs and their changes over time in two corresponding dashboards.
   - Interactivity and Flexibility: Users can switch between dashboards, view data for selected years, and apply filters related to product information and location. 
 - **:moneybag: Sales:**  
   Divided into two sections to provide comprehensive metrics:
@@ -50,7 +51,7 @@ The project was completed as part of Baraa Salkini's course on [Udemy](https://w
       `Location.Postal Code` ↔ `Orders.Postal Code`  
       `Products.Product ID` ↔ `Orders.Product ID`  
 
-*Data model diagran*  
+*Data model diagram*  
 ![Data_model](/Sales%20Dashboard%20Materials/Images/Connect_data.png)
 - **Data Exploration:**
     - Verified data quality and correct data type mapping.
@@ -117,7 +118,7 @@ Each chart type was selected for its ability to effectively communicate specific
 - Refined the dashboard's design, including colors, text styles, and inner/outer padding for a clean and professional look.
 - Added the logo and buttons to the title bar for a cohesive and branded design.
 - Converted the buttons to floating and added to the floating filter.
-- Fine tuned the settings of the floating filter.
+- Fine-tuned the settings of the floating filter.
 - Performed thorough testing.  
   
 *Define different objects in the sketch*  
@@ -132,9 +133,9 @@ Each chart type was selected for its ability to effectively communicate specific
 The structure is nearly identical to Sales Dashboard.  
 
 **:paintbrush: Design and Build:**  
-- Since strucuture is idential, I used same building steps to construct this dashboard.
-- Created button links to switch between two dashboard.
-- Performed thorough testing.  
+- Since structure is idential, I used same building steps to construct this dashboard.
+- Created button links to switch between two dashboards.
+- Performed thorough testing to ensure all buttons and filters are functioning properly.  
  
 # Conclusion  
 This project successfully delivers two comprehensive interactive dashboards, **Sales** and **Customers**, designed for sales managers and executives to track key metrics related to sales performance and customer engagement. Leveraging tools like Tableau and draw.io, I ensured a data-driven and user-friendly approach to presenting complex insights.

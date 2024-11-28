@@ -136,5 +136,9 @@ The structure is nearly identical to Sales Dashboard.
 - Created button links to switch between two dashboard.
 - Performed thorough testing.  
  
-# Conclusion
+# Conclusion  
+This project successfully delivers two comprehensive interactive dashboards, **Sales** and **Customers**, designed for sales managers and executives to track key metrics related to sales performance and customer engagement. Leveraging tools like Tableau and draw.io, I ensured a data-driven and user-friendly approach to presenting complex insights.
+
+Through a combination of charts, including BANs, stepped line charts, bar-in-bar charts, histograms, and tables, the dashboards provide both an overview of trends and detailed, actionable insights into sales trends, profit distribution, customer behaviors, and loyalty. Filters and interactive elements allow users to explore data flexibly, ensuring the dashboards are practical tools for making informed business decisions.  
+
 :mag: Explore the full dashboards on [Tableau Public](https://public.tableau.com/app/profile/mei.liu4813/viz/SalesCustomersDashboardsDataWithBaraa/CustomersDashboard).
